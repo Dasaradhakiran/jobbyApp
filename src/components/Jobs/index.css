@@ -1,0 +1,192 @@
+.jobs-cont {
+  display: flex;
+  background-color: #121212;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.jobs-profile-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.jobs-profile-logo {
+  width: 50px;
+}
+.jobs-profile-name {
+  font-family: 'Roboto';
+  color: #6366f1;
+  font-size: 15px;
+}
+.jobs-profile-text {
+  font-family: 'Roboto';
+  color: #2c364c;
+  font-size: 12px;
+}
+
+.jobs-employment-salary-cont {
+  border-top: 2px solid #b6c5ff;
+}
+.jobs-employment-salary-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}
+.jobs-employment-salary-label {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.jobs-employment-salary-li-elem {
+  list-style-type: none;
+}
+
+.jobs-profile-sub-cont {
+  height: 180px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-failure-button {
+  background-color: #4f46e5;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.jobs-sub-cont {
+  margin-left: 50px;
+}
+
+.jobs-search-cont {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+.jobs-search-input {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 15px;
+  width: 255px;
+}
+.jobs-search-button {
+  background-color: #272727;
+  height: 28px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.search-icon {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 60vw;
+}
+
+.jobs-ul-cont {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.jobs-failure-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 50vw;
+}
+.jobs-failure-image {
+  width: 400px;
+}
+.jobs-failure-main-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 37px;
+}
+.jobs-failure-text {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 15px;
+}
+.jobs-small-search-cont {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .jobs-small-search-cont {
+    display: flex;
+    align-items: center;
+    border: 1px solid #7e858e;
+    border-radius: 5px;
+    width: 270px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+  .jobs-search-button {
+    height: 21px;
+  }
+  .jobs-search-cont {
+    display: none;
+  }
+  .search-icon {
+    font-size: 11px;
+  }
+  .jobs-employment-salary-text {
+    font-size: 14px;
+  }
+  .jobs-employment-salary-label {
+    font-size: 12px;
+  }
+  .jobs-sub-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .jobs-failure-image {
+    width: 300px;
+  }
+  .jobs-failure-main-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .jobs-failure-text {
+    font-size: 15px;
+    text-align: center;
+  }
+}
